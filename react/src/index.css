@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: rgb(14, 18, 23);
+    padding-top: 100px;
+    padding-left: 300px;
+    color: white;
+    font-family: "Segoe UI", Tahoma, sans-serif;   
+}
+
+.side-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 56px;
+    z-index: 5;
+    max-height: calc(100vh - 56px);
+    overflow-y: auto;
+    border-right: 1px solid rgba(168, 179, 207, 0.2);
+}
+
+.side-bar::-webkit-scrollbar {
+    width: 0em; /* Adjust the width as needed */
+  }
+
+.article {
+    border: 1px solid rgba(168, 179, 207, 0.2);
+}
+
+  

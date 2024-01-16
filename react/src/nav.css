@@ -1,0 +1,70 @@
+
+.nav-bar {
+    border-bottom: 1px solid rgba(168, 179, 207, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    margin-left: 1rem;
+}
+
+.bell-icon {
+    background-color: rgba(168, 179, 207, 0.08);
+    border-radius: 0.6rem;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.collection-icon {
+    height: 36px;
+    width: 36px;
+    border: 1px solid rgb(206, 61, 243);
+    border-radius: 0.6rem;
+    padding: 0.4rem;
+    color: rgb(206, 61, 243);
+    cursor: pointer;
+}
+
+.profile {
+    background-color: rgba(168, 179, 207, 0.08);
+    padding: 0.7rem 2.1rem 0.7rem 0.7rem;
+    height: 36px;
+    width: 36px;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+.profile-logo {
+    background-color: #ec407a;
+    padding: 0.7rem;
+    border-radius: 0.6rem;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    margin-left: -0.6rem;
+    cursor: pointer;
+    transition: box-shadow 1s;
+}
+
+.collection-icon:hover {
+    box-shadow: rgba(192, 41, 240, 0.59) 0px 14px 14px -6px;
+    color: rgb(206, 62, 243);
+}
+
+.add-new-button {
+    transition:  box-shadow 0.2s ease-in-out;
+}
+
+.add-new-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.64) 0px 14px 14px -6px;
+    background-color: rgba(168, 179, 207, 0.12);
+}
+
+.bell-icon:hover {
+    color: rgb(168, 179, 207);
+}
